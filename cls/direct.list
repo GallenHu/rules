@@ -1,0 +1,12 @@
+DOMAIN-SUFFIX,mb3admin.com
+DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN-SUFFIX,cisdi.com.cn,no-resolve
+DOMAIN-SUFFIX,cisdigital.cn,no-resolve
+
+# Check IP
+DOMAIN-SUFFIX,checkip.amazonaws.com
+DOMAIN-SUFFIX,myexternalip.com
+
+IP-CIDR,10.73.0.0/16,no-resolve
+IP-CIDR,10.77.0.0/16,no-resolve
+IP-CIDR,5.5.5.0/24,no-resolve
