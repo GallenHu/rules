@@ -71,8 +71,16 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
+    - '*.baidu.com'
+    - '*.zhihu.com'
+    - '*.sogou.com'
+    - '*.gitee.io'
+    - '*.gitee.com'
     - '*.cisdigital.cn'
     - '*.cisdi.com.cn'
+    - '*.juejin.cn'
+    - '*.199100.xyz'
+    - '*.hinpc.xyz'
     - localhost.ptlogin2.qq.com
   default-nameserver:
     - 119.29.29.29
