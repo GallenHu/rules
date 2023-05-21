@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,bitbucket.com
 DOMAIN-SUFFIX,netlify.app
 DOMAIN-SUFFIX,travis-ci.com
 DOMAIN-SUFFIX,raspberrypi.org
+DOMAIN-SUFFIX,larksuite.com
 
 PROCESS-NAME,Spotify
 
