@@ -2,6 +2,7 @@ DOMAIN-SUFFIX,mb3admin.com
 DOMAIN-SUFFIX,api.cloudflare.com
 DOMAIN-SUFFIX,cisdi.com.cn,no-resolve
 DOMAIN-SUFFIX,cisdigital.cn,no-resolve
+DOMAIN-SUFFIX,china-yongfeng.com,no-resolve
 
 # Check IP
 DOMAIN-SUFFIX,checkip.amazonaws.com
