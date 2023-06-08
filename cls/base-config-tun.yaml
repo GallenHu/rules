@@ -106,9 +106,9 @@ tun:
   stack: system
   auto-route: true
   #auto-redir: true
-  dns-hijack:
-    - 8.8.4.4:53
-    - any:53
+  #dns-hijack:
+  #  - 8.8.4.4:53
+  #  - any:53
   auto-detect-interface: true
 
 # 1. clash DNS 请求逻辑：
