@@ -9,6 +9,8 @@ DOMAIN-SUFFIX,checkip.amazonaws.com
 DOMAIN-SUFFIX,myexternalip.com
 
 DOMAIN,qhk.199100.xyz
+DOMAIN,alist.cc
+DOMAIN,dav.cc
 
 IP-CIDR,10.73.0.0/16,no-resolve
 IP-CIDR,10.77.0.0/16,no-resolve
