@@ -5,6 +5,9 @@ DOMAIN-SUFFIX,cisdi.com.cn,no-resolve
 DOMAIN-SUFFIX,cisdigital.cn,no-resolve
 DOMAIN-SUFFIX,china-yongfeng.com,no-resolve
 
+# PT
+DOMAIN-SUFFIX,ubits.club
+
 # Check IP
 DOMAIN-SUFFIX,checkip.amazonaws.com
 DOMAIN-SUFFIX,myexternalip.com
