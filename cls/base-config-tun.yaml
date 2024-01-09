@@ -68,6 +68,7 @@ hosts:
 dns:
   enable: true # 是否启用dns false
   ipv6: false
+  listen: 0.0.0.0:7874
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
   use-hosts: true
   fake-ip-range: 198.18.0.1/16
@@ -104,11 +105,13 @@ dns:
 tun:
   enable: true
   stack: system
+  # 自动设置全局路由,可以自动将全局流量路由进入 tun 网卡。
   auto-route: true
-  #auto-redir: true
+  # dns 劫持,一般设置为 any:53 即可, 即劫持所有 53 端口的 udp 流量
   #dns-hijack:
   #  - 8.8.4.4:53
   #  - any:53
+  # 自动选择流量出口接口,多出口网卡同时连接的设备建议手动指定出口网卡
   auto-detect-interface: true
 
 # 1. clash DNS 请求逻辑：

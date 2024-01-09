@@ -65,13 +65,17 @@ hosts:
   '*.clash.dev': 127.0.0.1
   'alpha.clash.dev': '::1'
 
+# https://wiki.metacubex.one/config/dns/
 dns:
   enable: false # 是否启用dns false
   ipv6: false
-  listen: 0.0.0.0:53
+  listen: 0.0.0.0:7874
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
   use-hosts: true
+  # Fake ip 下的 IP 段设置
+  # tun 网卡的默认 IP 也使用此值
   fake-ip-range: 198.18.0.1/16
+  # 以下地址不会下发 fake ip 映射用于连接
   fake-ip-filter:
     - '*.lan'
     - '*.baidu.com'
@@ -85,21 +89,31 @@ dns:
     - '*.199100.xyz'
     - '*.hinpc.com'
     - localhost.ptlogin2.qq.com
+  # 用于解析包含域名的 DNS 服务器
+  # 必须为 IP, 可为加密 DNS，如: https://223.5.5.5/dns-query
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
+  # 默认的域名解析服务器
   # DNS CN
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
-  # DNS US
+  # 后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
+  # 配置 fallback 后默认启用 fallback-filter,geoIP-code为 cn
+  # 会与 nameServer 并发请求
   fallback:
     - tls://dns.google:853
     - https://dns.rubyfish.cn/dns-query
 
+  # 满足条件的将使用 fallback结果
   fallback-filter:
     geoip: true # 默认
-    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+    # 除了 geoip-code 配置的国家 IP, 其他的 IP 结果会被视为污染，使用 fallback
+    geoip-code: CN
+    # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+    # nameserver解析出这些结果时将会采用 fallback的解析结果
+    ipcidr:
       - 240.0.0.0/4
 
 # 1. clash DNS 请求逻辑：
