@@ -95,8 +95,8 @@ dns:
     - 119.29.29.29
   # DNS US
   fallback:
-    - udp://127.0.0.1:53
-    - https://dns.rubyfish.cn/dns-query
+    - https://94.140.14.140/dns-query
+    - https://qhk.199100.xyz/d
   fallback-filter:
     geoip: true # 默认
     geoip-code: CN
@@ -109,9 +109,8 @@ tun:
   # 自动设置全局路由,可以自动将全局流量路由进入 tun 网卡。
   auto-route: true
   # dns 劫持。劫持局域网内的 DNS 请求。如果是 any:53 则表示任意设备的53端口请求
-  #dns-hijack:
-  #  - 8.8.4.4:53
-  #  - any:53
+  dns-hijack:
+   - any:53
   #################################
   # 根据 https://github.com/vernesong/OpenClash/issues/521
   # 开启 tun 模式会默认劫持以下内容：（只劫持使用TCP协议发往8.8.8.8且53端口的数据包）

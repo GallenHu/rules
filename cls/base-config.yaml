@@ -103,8 +103,8 @@ dns:
   # 配置 fallback 后默认启用 fallback-filter,geoIP-code为 cn
   # 会与 nameServer 并发请求
   fallback:
-    - tls://dns.google:853
-    - https://dns.rubyfish.cn/dns-query
+    - https://94.140.14.140/dns-query
+    - https://qhk.199100.xyz/d
 
   # 满足条件的将使用 fallback结果
   fallback-filter:
