@@ -1,13 +1,3 @@
-# My Custom
-DOMAIN-SUFFIX,qhkproxy.199100.xyz
-DOMAIN-SUFFIX,twitter.com
-
-# gitlab
-DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
-DOMAIN-SUFFIX,gitlab-static.net
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,gitlab.net
-
 # Private Tracker
 DOMAIN-SUFFIX,beitai.pt
 # DOMAIN-SUFFIX,beyond-hd.me
