@@ -1,5 +1,5 @@
 # Private Tracker
-DOMAIN-SUFFIX,beitai.pt
+# DOMAIN-SUFFIX,beitai.pt
 # DOMAIN-SUFFIX,beyond-hd.me
 # DOMAIN-SUFFIX,bibliotik.me
 # DOMAIN-SUFFIX,bittorrent.com
@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,beitai.pt
 # DOMAIN-SUFFIX,broadcasthe.net
 # DOMAIN-SUFFIX,bt.byr.cn
 # DOMAIN-SUFFIX,bt.neu6.edu.cn
-DOMAIN-SUFFIX,btschool.club
+# DOMAIN-SUFFIX,btschool.club
 # DOMAIN-SUFFIX,bwtorrents.tv
 # DOMAIN-SUFFIX,byr.pt
 # DOMAIN-SUFFIX,ccfbits.org
@@ -18,7 +18,7 @@ DOMAIN-SUFFIX,btschool.club
 # DOMAIN-SUFFIX,cinemaz.to
 # DOMAIN-SUFFIX,classix-unlimited.co.uk
 # DOMAIN-SUFFIX,concertos.live
-DOMAIN-SUFFIX,dicmusic.club
+DOMAIN-SUFFIX,dicmusic.com
 # DOMAIN-SUFFIX,discfan.net
 # DOMAIN-SUFFIX,dxdhd.com
 # DOMAIN-SUFFIX,eastgame.org
