@@ -15,6 +15,10 @@ DOMAIN-SUFFIX,ubits.club
 DOMAIN-SUFFIX,checkip.amazonaws.com
 DOMAIN-SUFFIX,myexternalip.com
 
+# Business Site
+DOMAIN-SUFFIX,v3.cm
+
+# Lan
 DOMAIN,alist.cc
 DOMAIN,dav.cc
 
