@@ -1,6 +1,7 @@
 # 自定义走代理的HOST
 HOST-SUFFIX,v3.cm,PT_Site
 HOST-SUFFIX,nodeloc.com,PT_Site
+HOST-SUFFIX,hostloc.com,PT_Site
 
 # Private Tracker
 # HOST-SUFFIX,beitai.pt,PT_Site
