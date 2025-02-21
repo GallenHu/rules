@@ -1,3 +1,4 @@
 # 大陆香港澳门以外的节点
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,bitbucket.com
+DOMAIN-SUFFIX,groq.com
