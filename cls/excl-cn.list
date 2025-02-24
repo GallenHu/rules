@@ -1,10 +1,8 @@
-# 大陆香港澳门以外的节点如 AI Gitlab
+# 大陆香港澳门以外的节点如 AI Gitlab 使用 OpenAi 专用分组
 # https://gist.github.com/YiniRuohong/c0c0ca21618631900f8c363d8663dfba
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,bitbucket.com
 DOMAIN-SUFFIX,groq.com
-# https://gist.githubusercontent.com/YiniRuohong/82f34a02fe72624c4dd72a933709bab6/raw
-#AI
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,identrust.com
