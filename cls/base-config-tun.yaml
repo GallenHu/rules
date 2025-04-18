@@ -61,6 +61,8 @@ experimental:
 hosts:
   'portal.cisdi.com.cn': 10.73.3.240
   'owa.cisdi.com.cn': 10.73.1.250
+  'ccis-oam.cisdi.com.cn': 10.73.3.217
+  'ccis-oamgate.cisdi.com.cn': 10.101.4.253
   'nas.cc': 192.168.50.200
   '*.clash.dev': 127.0.0.1
   'alpha.clash.dev': '::1'
