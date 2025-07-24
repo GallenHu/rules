@@ -60,11 +60,6 @@ experimental:
 # 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
 # 注意: hosts 在 fake-ip 模式下不生效
 hosts:
-  "portal.cisdi.com.cn": 10.73.3.240
-  "owa.cisdi.com.cn": 10.73.1.250
-  "ccis-oam.cisdi.com.cn": 10.73.3.217
-  "ccis-oamgate.cisdi.com.cn": 10.101.4.253
-  "nas.cc": 192.168.50.200
   "*.clash.dev": 127.0.0.1
   "alpha.clash.dev": "::1"
 
@@ -254,36 +249,14 @@ tunnels:
 # 系统代理跳过列表-备份的，不起作用，
 # 使用时可以将cfw-bypass-bak与cfw-bypass内容互换
 cfw-bypass-bak:
-  # 原有字段不用删除
-  - qq.com
-  - "music.163.com" # 网易云域名1
-  - "*.music.126.net" # 网易云域名2
-  - localhost
-  - 127.*
-  - 10.*
-  - 172.16.*
-  - 172.17.*
-  - 172.18.*
-  - 172.19.*
-  - 172.20.*
-  - 172.21.*
-  - 172.22.*
-  - 172.23.*
-  - 172.24.*
-  - 172.25.*
-  - 172.26.*
-  - 172.27.*
-  - 172.28.*
-  - 172.29.*
-  - 172.30.*
-  - 172.31.*
-  - 192.168.*
   - <local>
 # 系统代理跳过列表 起作用的
 cfw-bypass:
   # 直连列表
   # MyList
   - "*.chaipip.com"
+  - "*.cisdi.com.cn"
+  - "123.199100.xyz"
   # CN域名直连(中国|公司|网络)
   - "*.cn"
   - "*.xn--fiqs8s"
